@@ -1,0 +1,111 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/login/login",
+			"style" : 
+			{
+				"navigationBarTitleText" : "登录"
+			}
+		},
+		{
+			"path" : "pages/tabbar/index/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/tabbar/project/project",
+			"style" : 
+			{
+				"navigationBarTitleText" : "项目",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/tabbar/mine/mine",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/tabbar/chat/chat",
+			"style" : 
+			{
+				"navigationBarTitleText" : "聊天"
+			}
+		},
+		
+		{
+			"path" : "pages/signup/signup",
+			"style" : 
+			{
+				"navigationBarTitleText" : "注册"
+			}
+		},
+		{
+			"path" : "pages/pulish/pulish",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom" // 这里隐藏顶部导航栏
+			}
+		},
+		{
+			"path" : "pages/myproject/myproject",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle": "custom" // 这里隐藏顶部导航栏
+			}
+		},
+		{
+			"path" : "pages/mypage/mypage",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/tabbar/chatDetail/chatDetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "聊天详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#00b783",
+		"borderStyle": "#fff",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/tabbar/index/index",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabbar/project/project",
+				"text": "项目"
+			},
+			{
+				"pagePath": "pages/tabbar/chat/chat",
+				"text": "聊天"
+			},
+			{
+				"pagePath": "pages/tabbar/mine/mine",
+				"text": "我的"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
